@@ -67,7 +67,7 @@ export default {
       }
     }
   },
-  //  haciendo promesa para traerme las preguntas de la api
+  //  haciendo promesa para traerme las preguntas de la api de preguntas
   mounted: function () {
     fetch(
       'https://opentdb.com/api.php?amount=10&category=26&difficulty=easy&type=multiple',
